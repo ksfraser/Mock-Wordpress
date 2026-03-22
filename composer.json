@@ -3,10 +3,13 @@
   "description": "WordPress core mocks, factories, and assertions for unit testing",
   "type": "library",
   "license": "GPL-3.0-or-later",
+  "keywords": ["wordpress", "testing", "mocks", "factories", "unit-tests", "phpunit"],
+  "homepage": "https://github.com/ksfraser/mock-wordpress",
   "authors": [
     {
       "name": "K.S. Fraser",
-      "email": "ksfraser@example.com"
+      "email": "ksfraser@example.com",
+      "homepage": "https://github.com/ksfraser"
     }
   ],
   "require": {

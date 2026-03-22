@@ -1,0 +1,11 @@
+/vendor/
+/coverage/
+.phpunit.cache/
+coverage.txt
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.log

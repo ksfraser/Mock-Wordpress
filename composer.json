@@ -1,0 +1,33 @@
+{
+  "name": "ksfraser/mock-wordpress",
+  "description": "WordPress core mocks, factories, and assertions for unit testing",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "K.S. Fraser",
+      "email": "ksfraser@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6",
+    "yoast/phpunit-polyfills": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ksfraser\\MockWordPress\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ksfraser\\MockWordPress\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test-coverage": "phpunit --coverage-html=coverage --coverage-text"
+  }
+}
